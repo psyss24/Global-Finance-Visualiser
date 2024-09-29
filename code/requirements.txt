@@ -1,0 +1,6 @@
+yfinance
+requests
+lxml
+numpy
+matplotlib
+ttkbootstrap
