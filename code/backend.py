@@ -2,12 +2,18 @@ from ctypes import *
 import yfinance as yf
 import requests
 from lxml import html
+import os
 
-#load c backend
-lib = cdll.LoadLibrary('./backend_library.so')
+# Get the absolute path of the current directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the absolute path to the shared library
+lib_path = os.path.join(current_dir, 'backend_library.so')
+
+# Load the shared library
+lib = cdll.LoadLibrary(lib_path)
 
 #setup c structs
-
 class PriceIndexData(Structure):
     _fields_ = [
         ("date", c_char * 11),
