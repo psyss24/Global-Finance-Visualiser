@@ -254,17 +254,9 @@ class GlobalFinanceVisualizerGUI:
 
     def destroy_chart(self):
         if hasattr(self, 'chart_frame') and self.chart_frame:
-            print("Destroying chart frame and its children widgets...")
             for widget in self.chart_frame.winfo_children():
-                print(f"Destroying widget: {widget}")
                 widget.destroy()
-            print("Destroying chart frame itself...")
-            self.chart_frame.destroy()
             self.chart_frame = None
-            print("Chart frame destroyed.")
-        else:
-            print("No chart frame to destroy.")
-        
 
     def update_stock_search_dropdown(self, event=None):
         selected_composite = self.stock_composite_combobox.get()
