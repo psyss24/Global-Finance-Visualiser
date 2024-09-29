@@ -61,7 +61,6 @@ GFV is a streamlined tool designed to make it easier to explore and understand f
 ##  Getting Started
 
 To get a local copy up and running, follow these simple steps.
-- GCC or Clang compiler
 ### Requirements
 - GCC or Clang compiler
 - Python
