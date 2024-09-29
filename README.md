@@ -152,45 +152,42 @@ To get a local copy up and running, follow these simple steps.
 
 
 ### Screenshots
+### Analyze Stock Trends
 
 <div style="text-align: center;">
-  <h4>Analyze stock trends</h4>
+  <h4>Analyze Stock Trends</h4>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="media/demo_img/stock1.png" target="_blank">
-    <img src="media/demo_img/stock1.png" alt="Stock data" style="width: 90%;">
-  </a>
-  <a href="media/demo_img/stock2.png" target="_blank">
-    <img src="media/demo_img/stock2.png" alt="Stock data" style="width: 100%;">
-  </a>
-</div>
+<table>
+  <tr>
+    <td><a href="media/demo_img/stock1.png" target="_blank"><img src="media/demo_img/stock1.png" alt="Stock data" style="width: 100%;"></a></td>
+    <td><a href="media/demo_img/stock2.png" target="_blank"><img src="media/demo_img/stock2.png" alt="Stock data" style="width: 100%;"></a></td>
+  </tr>
+</table>
 
 <div style="text-align: center;">
-  <h4>Visualize currency fluctuations</h4>
+  <h4>Visualize Currency Fluctuations</h4>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="media/demo_img/currency1.png" target="_blank">
-    <img src="media/demo_img/currency1.png" alt="Currency data" style="width: 100%;">
-  </a>
-  <a href="media/demo_img/currency2.png" target="_blank">
-    <img src="media/demo_img/currency2.png" alt="Currency data" style="width: 100%;">
-  </a>
-</div>
+<table>
+  <tr>
+    <td><a href="media/demo_img/currency1.png" target="_blank"><img src="media/demo_img/currency1.png" alt="Currency data" style="width: 100%;"></a></td>
+    <td><a href="media/demo_img/currency2.png" target="_blank"><img src="media/demo_img/currency2.png" alt="Currency data" style="width: 100%;"></a></td>
+  </tr>
+</table>
 
 <div style="text-align: center;">
-  <h4>View Macro indicators</h4>
+  <h4>View Macro Indicators</h4>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="media/demo_img/macro1.png" target="_blank">
-    <img src="media/demo_img/macro1.png" alt="Macro data" style="width: 100%;">
-  </a>
-  <a href="media/demo_img/macro2.png" target="_blank">
-    <img src="media/demo_img/macro2.png" alt="Macro data" style="width: 100%;">
-  </a>
-</div>
+<table>
+  <tr>
+    <td><a href="media/demo_img/macro1.png" target="_blank"><img src="media/demo_img/macro1.png" alt="Macro data" style="width: 100%;"></a></td>
+    <td><a href="media/demo_img/macro2.png" target="_blank"><img src="media/demo_img/macro2.png" alt="Macro data" style="width: 100%;"></a></td>
+  </tr>
+</table>
+
+
 
 ## Acknowledgements
 * [YHfinance](https://financeapi.net/home) for realtume currency values.
