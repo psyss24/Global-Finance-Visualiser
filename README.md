@@ -143,7 +143,6 @@ To get a local copy up and running, follow these simple steps.
 
 
 </details>
-
 2. Use the dropdown menus to select the type of data you want to visualize (Currency, Stock, or Macroeconomic Indicators).
 
 3. Choose specific parameters (e.g., currency pairs, stock symbols, or economic indicators).
@@ -151,8 +150,7 @@ To get a local copy up and running, follow these simple steps.
 5. Interact with the chart by hovering over data points or clicking and dragging to compare different time periods.
 
 
-### Screenshots
-### Analyze Stock Trends
+## Screenshots
 
 <div style="text-align: center;">
   <h4>Analyze Stock Trends</h4>
