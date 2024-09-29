@@ -111,7 +111,7 @@ To get a local copy up and running, follow these simple steps.
           .\vcpkg install libxml2
           ```
       <details>
-        <summary>Source</summary>     
+        <summary>source</summary>     
 
         - [curl.se](https://curl.se/windows/)
 
