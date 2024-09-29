@@ -2,12 +2,13 @@ from ctypes import *
 import yfinance as yf
 import requests
 from lxml import html
+import os
 
-#load c backend
-lib = cdll.LoadLibrary('./backend_library.so')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+lib_path = os.path.join(current_dir, 'backend_library.so')
+lib = cdll.LoadLibrary(lib_path)
 
 #setup c structs
-
 class PriceIndexData(Structure):
     _fields_ = [
         ("date", c_char * 11),
