@@ -1,13 +1,15 @@
 # Global Finance Visualizer
 
-<!-- [![GitHub license](https://img.shields.io/github/license/psyss24/global-finance-visualizer.svg)](https://github.com/psyss24/global-finance-visualizer/blob/master/LICENSE)
+<!-- 
 [![GitHub release](https://img.shields.io/github/release/psyss24/global-finance-visualizer.svg)](https://GitHub.com/psyss24/global-finance-visualizer/releases/) -->
 
 > Built in Python + C
 
 Global Finance Visualizer is an interactive application that charts and analyzes various financial data including currency exchange rates, stock prices, and macroeconomic indicators. It provides a user-friendly interface for visualizing complex financial data, making it easier for users to understand global economic trends.
 
-[Demo Videos](media/demo_vid) · [Report Bug](https://github.com/psyss24/global-finance-visualizer/issues) · [Request Feature](https://github.com/psyss24/global-finance-visualizer/issues)
+[Demo Videos](media/demo_vid) · [Report Bug](https://github.com/psyss24/Global-Finance-Visualiser/issues)
+
+ <!-- · [Request Feature](https://github.com/psyss24/Global-Finance-Visualiser/issues) -->
 
 ## 📋 Table of Contents
 
