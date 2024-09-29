@@ -4,13 +4,8 @@ import requests
 from lxml import html
 import os
 
-# Get the absolute path of the current directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Construct the absolute path to the shared library
 lib_path = os.path.join(current_dir, 'backend_library.so')
-
-# Load the shared library
 lib = cdll.LoadLibrary(lib_path)
 
 #setup c structs
