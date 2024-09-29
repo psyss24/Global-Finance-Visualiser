@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/psyss24/global-finance-visualizer.svg)](https://GitHub.com/psyss24/global-finance-visualizer/releases/) -->
 
 > Built in Python + C
-
+ 
 [Demo Videos](media/demo_vid) · [Report Bug](https://github.com/psyss24/Global-Finance-Visualiser/issues)
 
  <!-- · [Request Feature](https://github.com/psyss24/Global-Finance-Visualiser/issues) -->
