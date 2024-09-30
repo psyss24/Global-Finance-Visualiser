@@ -1,0 +1,8 @@
+//config.h
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define EODHD_API_KEY "ENTER YOUR API KEY"
+#define FRED_API_KEY "ENTER YOUR API KEY"
+#define YFAPI_API_KEY "ENTER YOUR API KEY"
+#endif 
