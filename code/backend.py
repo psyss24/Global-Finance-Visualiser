@@ -118,6 +118,7 @@ def get_price_index_data(indicator, country_code, start_year, end_year):
     return data_list
 
 import yfinance as yf
+from requests.exceptions import HTTPError
 
 def get_stock_name(symbol):
     try:
@@ -133,6 +134,13 @@ def get_stock_name(symbol):
             # if not, get fast_info if available
             fast_info = stock.fast_info
             return fast_info.get('shortName', 'Unknown Stock')
+    except HTTPError as http_err:
+        if http_err.response.status_code == 401:
+            print(f"Unauthorized access for symbol {symbol}: {http_err}")
+            return 'Unauthorized Access'
+        else:
+            print(f"HTTP error occurred for symbol {symbol}: {http_err}")
+            return 'Unknown Stock'
     except Exception as e:
         print(f"Error fetching stock name for symbol {symbol}: {e}")
         return 'Unknown Stock'
