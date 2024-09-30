@@ -5,7 +5,7 @@
 
 > Built in Python + C
  
-[Demo Videos]([media/demo_vid](https://drive.google.com/drive/folders/1N5pD5tTE8pWB4Py-OK1sPaKQFWhCyDS7?usp=share_link)) · [Report Bug](https://github.com/psyss24/Global-Finance-Visualiser/issues)
+[Demo Videos]((https://drive.google.com/drive/folders/1N5pD5tTE8pWB4Py-OK1sPaKQFWhCyDS7?usp=share_link)) · [Report Bug](https://github.com/psyss24/Global-Finance-Visualiser/issues)
 
  <!-- · [Request Feature](https://github.com/psyss24/Global-Finance-Visualiser/issues) -->
 
