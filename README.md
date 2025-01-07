@@ -92,17 +92,6 @@ To get a local copy up and running, follow these simple steps.
     brew install cjson
     sudo apt install libxml2-dev
    ```
-   
-      <details>
-        <summary>source</summary>     
-
-        - [curl.se](https://curl.se/windows/)
-
-        - [cJSON GitHub](https://github.com/DaveGamble/cJSON)
-
-        - [xmlsoft.org](http://xmlsoft.org/download.html)
-      </details>
-
 
 
 5. Enter your API keys in `config.h`
