@@ -92,21 +92,7 @@ To get a local copy up and running, follow these simple steps.
     brew install cjson
     sudo apt install libxml2-dev
    ```
-   - **Windows**:
-      - **vcpkg**:
-        
-        ```bash
-          git clone https://github.com/microsoft/vcpkg.git
-          cd vcpkg
-          .\bootstrap-vcpkg.bat
-          .\vcpkg install curl
-          ```
-        ```bash
-          .\vcpkg install cjson
-          ```
-        ```bash
-          .\vcpkg install libxml2
-          ```
+   
       <details>
         <summary>source</summary>     
 
