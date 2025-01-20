@@ -9,7 +9,7 @@
 
  <!-- · [Request Feature](https://github.com/psyss24/Global-Finance-Visualiser/issues) -->
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
